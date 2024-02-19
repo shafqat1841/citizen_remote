@@ -12,7 +12,7 @@ const CardHeader = () => {
             </div>
             <div className="flex flex-col justify-center">
               <p className="text-sm xs:text-base font-medium text-[#EEF0F1]">Fellow Traveler</p>
-              <p className="text-xs xs:text-sm font-normal text-[#EDF3FD]">traveleremail@gmail.com</p>
+              <p className="text-xs xs:text-sm font-normal text-[#EDF3FDB0]">traveleremail@gmail.com</p>
             </div>
           </div>
           <div className="flex gap-1 xs:gap-2">

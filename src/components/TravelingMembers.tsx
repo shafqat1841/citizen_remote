@@ -21,7 +21,7 @@ const TravelingMembers = () => {
         <BorderButton className="border-[#01012e22] w-[280px] xs:w-[360px]">
           Alone
         </BorderButton>
-        <BorderButton className="w-[280px] xs:w-[360px]">
+        <BorderButton className="w-[280px] xs:w-[360px] font-semibold">
           With others
         </BorderButton>
       </div>
