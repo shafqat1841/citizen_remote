@@ -1,5 +1,24 @@
 import type { Config } from "tailwindcss";
 
+const colors = {
+  dottedLine: "#D3D4DB",
+};
+
+const backgroundImage = {
+  cardBackground: "url('../../public/assets/images/cardBackground.png')",
+  // dottedLine: "linear-gradient(to right, #D3D4DB 33%, #D3D4DB 0%)",
+  dottedLine: "url('../../public/assets/images/dottedLine.png')"
+};
+
+const backgroundSize = {
+  dottedLineSize: "3px 1px",
+};
+
+const screens = {
+  xs: "480px",
+  lg2: "1200px",
+};
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,11 +27,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors,
+      backgroundImage,
+      screens,
     },
   },
   plugins: [],
